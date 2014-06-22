@@ -21,7 +21,7 @@ The rest of the variables are the same that were provided with the dataset. Seve
 - removal of all brackets, as R is confused by brackets because it doesn't expect them to be used as characters
 - removal of dashes, for the same reason as the brackets
 
-** For each record it is provided:
+## For each record it is provided:
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 

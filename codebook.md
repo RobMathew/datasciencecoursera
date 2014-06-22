@@ -1,4 +1,4 @@
- ** Explanations of variables for run_analysis.R\
+ ** Explanations of variables for run_analysis.R
 
 The first variable is SubjectID, this is a factor variable ranging from 1-30. Each ID represents an individual that participated in the study.
 

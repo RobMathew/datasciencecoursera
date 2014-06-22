@@ -1,5 +1,5 @@
- ** Explanations of variables for run_analysis.R
-
+Explanations of variables for run_analysis.R
+======================================
 The first variable is SubjectID, this is a factor variable ranging from 1-30. Each ID represents an individual that participated in the study.
 
 The second variable is Activity. It is a factor variable that represents the different types of activities that were studied. They are: 
@@ -21,8 +21,7 @@ The rest of the variables are the same that were provided with the dataset. Seve
 - removal of all brackets, as R is confused by brackets because it doesn't expect them to be used as characters
 - removal of dashes, for the same reason as the brackets
 
-For each record it is provided:
-======================================
+** For each record it is provided:
 
 - Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
 - Triaxial Angular velocity from the gyroscope. 

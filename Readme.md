@@ -9,17 +9,18 @@
 
 * First read in the test dataset
 * The X datasets have the raw data on the exercises, the y datasets are for the 6 activities (walking, sitting, standing, etc.), and the subject file has subject ID's. 
-```{r} data.x1 <- read.table("test/X_test.txt", header=FALSE)
-data.y1 <- read.table("test/Y_test.txt", header=FALSE)
-subject1 <- read.table("test/subject_test.txt", header=FALSE)
-```
+        * data.x1 <- read.table("test/X_test.txt", header=FALSE)
+        * data.y1 <- read.table("test/Y_test.txt", header=FALSE)
+        *subject1 <- read.table("test/subject_test.txt", header=FALSE)
+
 
 * The y file, and subject file are both vectors of class integer, and need to be converted to factors, to reflect exercises and individuals
 * The activity column is a factor variable from 1-6 with the activity names, changes the numbers to text labels
 
+```
 data.y1$V1 <- factor(data.y1$V1, levels = c(1,2,3,4,5,6), labels = c("walking", "walking_upstairs", "walking_downstairs", "sitting", "standing", "laying"))
 subject1$V1 <- factor(subject1$V1)
-
+```
 
 *Check the data frame dimension sizes
 dim(data.x1)

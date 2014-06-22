@@ -9,9 +9,9 @@
 
 * First read in the test dataset
 * The X datasets have the raw data on the exercises, the y datasets are for the 6 activities (walking, sitting, standing, etc.), and the subject file has subject ID's. 
-data.x1 <- read.table("test/X_test.txt", header=FALSE)
-data.y1 <- read.table("test/Y_test.txt", header=FALSE)
-subject1 <- read.table("test/subject_test.txt", header=FALSE)
+..* data.x1 <- read.table("test/X_test.txt", header=FALSE)
+..* data.y1 <- read.table("test/Y_test.txt", header=FALSE)
+..* subject1 <- read.table("test/subject_test.txt", header=FALSE)
 
 * The y file, and subject file are both vectors of class integer, and need to be converted to factors, to reflect exercises and individuals
 * The activity column is a factor variable from 1-6 with the activity names, changes the numbers to text labels

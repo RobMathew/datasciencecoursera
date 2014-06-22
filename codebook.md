@@ -5,6 +5,7 @@ The first variable is SubjectID, this is a factor variable ranging from 1-30. Ea
 The second variable is Activity. It is a factor variable that represents the different types of activities that were studied. They are: 
 
 1 WALKING
+
 2 WALKING_UPSTAIRS
 
 3 WALKING_DOWNSTAIRS
@@ -19,6 +20,15 @@ The rest of the variables are the same that were provided with the dataset. Seve
 
 - removal of all brackets, as R is confused by brackets because it doesn't expect them to be used as characters
 - removal of dashes, for the same reason as the brackets
+
+For each record it is provided:
+======================================
+
+- Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration.
+- Triaxial Angular velocity from the gyroscope. 
+- A 561-feature vector with time and frequency domain variables. 
+- Its activity label. 
+- An identifier of the subject who carried out the experiment.
 
 The column variables were subsetted to only include those that refer to means, and standard deviations, there were 66 such columns. They are:
 

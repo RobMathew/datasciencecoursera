@@ -3,8 +3,8 @@
 The first variable is SubjectID, this is a factor variable ranging from 1-30. Each ID represents an individual that participated in the study.
 
 The second variable is Activity. It is a factor variable that represents the different types of activities that were studied. They are: 
-1 WALKING
 
+1 WALKING
 2 WALKING_UPSTAIRS
 
 3 WALKING_DOWNSTAIRS

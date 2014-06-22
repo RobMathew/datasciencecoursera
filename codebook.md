@@ -4,10 +4,15 @@ The first variable is SubjectID, this is a factor variable ranging from 1-30. Ea
 
 The second variable is Activity. It is a factor variable that represents the different types of activities that were studied. They are: 
 1 WALKING
+
 2 WALKING_UPSTAIRS
+
 3 WALKING_DOWNSTAIRS
+
 4 SITTING
+
 5 STANDING
+
 6 LAYING
 
 The rest of the variables are the same that were provided with the dataset. Several key transformations were made to improve their functionality in R. Key transformations were:
